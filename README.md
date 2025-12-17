@@ -11,6 +11,16 @@ Research Project in collaboration with Antoine Salomon, supervised by Pascal Mon
 This algorithm fills missing portions of an image with a visually coherent background. It leverages the structural information of the image and operates by dividing it into small square regions called patches.
 A brief research paper included in this repository explains the core concepts of the method and analyzes the results achieved with this implementation.
 
+Here is a demonstration of the object removal process:
+
+| Original Image | Mask & Source Selection | Inpainted Result |
+|:---:|:---:|:---:|
+| <img src="assets/image_init.png" width="522"> | <img src="assets/mask_example.png" width="522"> | <img src="assets/result_example.png" width="522"> |
+
+* **Left:** The original image.
+* **Middle:** User input. The **Red** polygon defines the object to remove. The **Blue** polygon defines the source area for texture synthesis.
+* **Right:** The final result using the Criminisi algorithm.
+
 ----------------------------------------Usage------------------------------------------
 
 Select the Removal Zone (Red):
