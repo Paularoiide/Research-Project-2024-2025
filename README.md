@@ -33,4 +33,4 @@ Image source: Change the filename in main.cpp to process a different image.
 
 ----------------------------------------Documentation----------------------------------------
 
-A detailed analysis of the method and results is available in the [Project Report](docs/Project_Report.pdf).
+A detailed analysis (in french) of the method and results is available in the [Project Report](docs/Project_Report.pdf).
