@@ -11,7 +11,7 @@ using namespace std;
 int main() {
     try {
         // Setup: Load image and parameters
-        std::string image_path = "assets/lezard.jpg";
+        std::string image_path = "assets/image_init.png";
         int patch_size = 9; // Larger patches preserve texture better but blur structures
 
         std::cout << "Loading image: " << image_path << std::endl;
