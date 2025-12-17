@@ -30,3 +30,7 @@ Click anywhere to start the inpainting process. The red area will be filled auto
 You can modify the following parameters in main.cpp:
 patch_size: Increasing this value speeds up computation but may lead to less precise results (must be an odd number).
 Image source: Change the filename in main.cpp to process a different image.
+
+----------------------------------------Documentation----------------------------------------
+
+A detailed analysis of the method and results is available in the [Project Report](docs/Project_Report.pdf).
